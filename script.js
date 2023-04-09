@@ -1,9 +1,9 @@
-import { URL } from "./config.js";
+import { api_url } from "./config.js";
 const card = document.querySelector('.section');
 
 const errorMsg = document.querySelector('.error-msg');
 
-const response = fetch(URL);
+const response = fetch(api_url);
 
 // console.log(response);
 try {
